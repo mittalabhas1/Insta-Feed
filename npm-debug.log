@@ -1,0 +1,203 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'backbone-crossdomain' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'backbone-crossdomain', null ]
+5 verbose cache add name=undefined spec="backbone-crossdomain" args=["backbone-crossdomain",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'backbone-crossdomain',
+6 verbose parsed url   path: 'backbone-crossdomain',
+6 verbose parsed url   href: 'backbone-crossdomain' }
+7 silly lockFile 0497d23d-backbone-crossdomain backbone-crossdomain
+8 verbose lock backbone-crossdomain /home/macchli/.npm/0497d23d-backbone-crossdomain.lock
+9 silly lockFile 0497d23d-backbone-crossdomain backbone-crossdomain
+10 silly lockFile 0497d23d-backbone-crossdomain backbone-crossdomain
+11 verbose addNamed [ 'backbone-crossdomain', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile b60f497b-backbone-crossdomain backbone-crossdomain@
+14 verbose lock backbone-crossdomain@ /home/macchli/.npm/b60f497b-backbone-crossdomain.lock
+15 silly addNameRange { name: 'backbone-crossdomain', range: '*', hasData: false }
+16 verbose url raw backbone-crossdomain
+17 verbose url resolving [ 'https://registry.npmjs.org/', './backbone-crossdomain' ]
+18 verbose url resolved https://registry.npmjs.org/backbone-crossdomain
+19 info trying registry request attempt 1 at 05:57:20
+20 http GET https://registry.npmjs.org/backbone-crossdomain
+21 http 200 https://registry.npmjs.org/backbone-crossdomain
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Mon, 26 May 2014 00:27:21 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+22 silly registry.get     etag: '"ANP62F3ZB4ZSXXGYEJ95LZJ6B"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     'cache-control': 'max-age=1',
+22 silly registry.get     'content-length': '23138',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     age: '77',
+22 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-sv62-SJC3',
+22 silly registry.get     'x-cache': 'MISS, MISS',
+22 silly registry.get     'x-cache-hits': '0, 0',
+22 silly registry.get     'x-timer': 'S1401064041.663519,VS0,VE81',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'backbone-crossdomain', range: '*', hasData: true }
+24 silly addNameRange versions [ 'backbone-crossdomain',
+24 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '0.4.0' ] ]
+25 verbose addNamed [ 'backbone-crossdomain', '0.4.0' ]
+26 verbose addNamed [ '0.4.0', '0.4.0' ]
+27 silly lockFile 2e3ba28f-backbone-crossdomain-0-4-0 backbone-crossdomain@0.4.0
+28 verbose lock backbone-crossdomain@0.4.0 /home/macchli/.npm/2e3ba28f-backbone-crossdomain-0-4-0.lock
+29 silly lockFile c4c2789a-n-backbone-crossdomain-0-4-0-tgz https://registry.npmjs.org/backbone-crossdomain/-/backbone-crossdomain-0.4.0.tgz
+30 verbose lock https://registry.npmjs.org/backbone-crossdomain/-/backbone-crossdomain-0.4.0.tgz /home/macchli/.npm/c4c2789a-n-backbone-crossdomain-0-4-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/backbone-crossdomain/-/backbone-crossdomain-0.4.0.tgz',
+31 verbose addRemoteTarball   'b0501adc7a8897c5dc30bcd2e4c1bad193be1c00' ]
+32 info retry fetch attempt 1 at 05:57:22
+33 verbose fetch to= /home/macchli/tmp/npm-5919-7do7j08C/1401064042228-0.15524590900167823/tmp.tgz
+34 http GET https://registry.npmjs.org/backbone-crossdomain/-/backbone-crossdomain-0.4.0.tgz
+35 http 200 https://registry.npmjs.org/backbone-crossdomain/-/backbone-crossdomain-0.4.0.tgz
+36 verbose tar unpack /home/macchli/tmp/npm-5919-7do7j08C/1401064042228-0.15524590900167823/tmp.tgz
+37 silly lockFile 0617072c-2228-0-15524590900167823-package tar:///home/macchli/tmp/npm-5919-7do7j08C/1401064042228-0.15524590900167823/package
+38 verbose lock tar:///home/macchli/tmp/npm-5919-7do7j08C/1401064042228-0.15524590900167823/package /home/macchli/.npm/0617072c-2228-0-15524590900167823-package.lock
+39 silly lockFile c7da00d4-2228-0-15524590900167823-tmp-tgz tar:///home/macchli/tmp/npm-5919-7do7j08C/1401064042228-0.15524590900167823/tmp.tgz
+40 verbose lock tar:///home/macchli/tmp/npm-5919-7do7j08C/1401064042228-0.15524590900167823/tmp.tgz /home/macchli/.npm/c7da00d4-2228-0-15524590900167823-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry Backbone.CrossDomain.js
+46 silly gunzTarPerm extractEntry Gruntfile.js
+47 silly gunzTarPerm extractEntry LICENSE-MIT
+48 silly gunzTarPerm extractEntry bower.json
+49 silly gunzTarPerm extractEntry test/Backbone.CrossDomain.js
+50 silly gunzTarPerm extractEntry test/index.html
+51 silly lockFile 0617072c-2228-0-15524590900167823-package tar:///home/macchli/tmp/npm-5919-7do7j08C/1401064042228-0.15524590900167823/package
+52 silly lockFile 0617072c-2228-0-15524590900167823-package tar:///home/macchli/tmp/npm-5919-7do7j08C/1401064042228-0.15524590900167823/package
+53 silly lockFile c7da00d4-2228-0-15524590900167823-tmp-tgz tar:///home/macchli/tmp/npm-5919-7do7j08C/1401064042228-0.15524590900167823/tmp.tgz
+54 silly lockFile c7da00d4-2228-0-15524590900167823-tmp-tgz tar:///home/macchli/tmp/npm-5919-7do7j08C/1401064042228-0.15524590900167823/tmp.tgz
+55 verbose tar pack [ '/home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz',
+55 verbose tar pack   '/home/macchli/tmp/npm-5919-7do7j08C/1401064042228-0.15524590900167823/package' ]
+56 verbose tarball /home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz
+57 verbose folder /home/macchli/tmp/npm-5919-7do7j08C/1401064042228-0.15524590900167823/package
+58 silly lockFile 0617072c-2228-0-15524590900167823-package tar:///home/macchli/tmp/npm-5919-7do7j08C/1401064042228-0.15524590900167823/package
+59 verbose lock tar:///home/macchli/tmp/npm-5919-7do7j08C/1401064042228-0.15524590900167823/package /home/macchli/.npm/0617072c-2228-0-15524590900167823-package.lock
+60 silly lockFile 0f792631-ne-crossdomain-0-4-0-package-tgz tar:///home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz
+61 verbose lock tar:///home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz /home/macchli/.npm/0f792631-ne-crossdomain-0-4-0-package-tgz.lock
+62 silly lockFile 0617072c-2228-0-15524590900167823-package tar:///home/macchli/tmp/npm-5919-7do7j08C/1401064042228-0.15524590900167823/package
+63 silly lockFile 0617072c-2228-0-15524590900167823-package tar:///home/macchli/tmp/npm-5919-7do7j08C/1401064042228-0.15524590900167823/package
+64 silly lockFile 0f792631-ne-crossdomain-0-4-0-package-tgz tar:///home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz
+65 silly lockFile 0f792631-ne-crossdomain-0-4-0-package-tgz tar:///home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz
+66 silly lockFile b52dc024-ckbone-crossdomain-0-4-0-package /home/macchli/.npm/backbone-crossdomain/0.4.0/package
+67 verbose lock /home/macchli/.npm/backbone-crossdomain/0.4.0/package /home/macchli/.npm/b52dc024-ckbone-crossdomain-0-4-0-package.lock
+68 silly lockFile b52dc024-ckbone-crossdomain-0-4-0-package /home/macchli/.npm/backbone-crossdomain/0.4.0/package
+69 silly lockFile b52dc024-ckbone-crossdomain-0-4-0-package /home/macchli/.npm/backbone-crossdomain/0.4.0/package
+70 verbose tar unpack /home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz
+71 silly lockFile 4b260250-ckbone-crossdomain-0-4-0-package tar:///home/macchli/.npm/backbone-crossdomain/0.4.0/package
+72 verbose lock tar:///home/macchli/.npm/backbone-crossdomain/0.4.0/package /home/macchli/.npm/4b260250-ckbone-crossdomain-0-4-0-package.lock
+73 silly lockFile 0f792631-ne-crossdomain-0-4-0-package-tgz tar:///home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz
+74 verbose lock tar:///home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz /home/macchli/.npm/0f792631-ne-crossdomain-0-4-0-package-tgz.lock
+75 silly gunzTarPerm modes [ '755', '644' ]
+76 silly gunzTarPerm extractEntry package.json
+77 silly gunzTarPerm extractEntry .npmignore
+78 silly gunzTarPerm extractEntry README.md
+79 silly gunzTarPerm extractEntry Backbone.CrossDomain.js
+80 silly gunzTarPerm extractEntry Gruntfile.js
+81 silly gunzTarPerm extractEntry LICENSE-MIT
+82 silly gunzTarPerm extractEntry bower.json
+83 silly gunzTarPerm extractEntry test/Backbone.CrossDomain.js
+84 silly gunzTarPerm extractEntry test/index.html
+85 silly lockFile 4b260250-ckbone-crossdomain-0-4-0-package tar:///home/macchli/.npm/backbone-crossdomain/0.4.0/package
+86 silly lockFile 4b260250-ckbone-crossdomain-0-4-0-package tar:///home/macchli/.npm/backbone-crossdomain/0.4.0/package
+87 silly lockFile 0f792631-ne-crossdomain-0-4-0-package-tgz tar:///home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz
+88 silly lockFile 0f792631-ne-crossdomain-0-4-0-package-tgz tar:///home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz
+89 verbose chmod /home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz 644
+90 verbose chown /home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz [ 1000, 1000 ]
+91 silly lockFile c4c2789a-n-backbone-crossdomain-0-4-0-tgz https://registry.npmjs.org/backbone-crossdomain/-/backbone-crossdomain-0.4.0.tgz
+92 silly lockFile c4c2789a-n-backbone-crossdomain-0-4-0-tgz https://registry.npmjs.org/backbone-crossdomain/-/backbone-crossdomain-0.4.0.tgz
+93 silly lockFile 2e3ba28f-backbone-crossdomain-0-4-0 backbone-crossdomain@0.4.0
+94 silly lockFile 2e3ba28f-backbone-crossdomain-0-4-0 backbone-crossdomain@0.4.0
+95 silly lockFile b60f497b-backbone-crossdomain backbone-crossdomain@
+96 silly lockFile b60f497b-backbone-crossdomain backbone-crossdomain@
+97 silly resolved [ { name: 'backbone-crossdomain',
+97 silly resolved     description: 'An extension for Backbone.js with a Sync that adds support for IE 7-9 CORS requests using IE\'s XDomainRequest Object while maintaining compatibility with non-IE systems.',
+97 silly resolved     version: '0.4.0',
+97 silly resolved     homepage: 'https://github.com/victorquinn/Backbone.CrossDomain',
+97 silly resolved     author:
+97 silly resolved      { name: 'Victor Quinn',
+97 silly resolved        email: 'mail@victorquinn.com',
+97 silly resolved        url: 'http://victorquinn.com' },
+97 silly resolved     repository:
+97 silly resolved      { type: 'git',
+97 silly resolved        url: 'git://github.com/victorquinn/Backbone.CrossDomain.git' },
+97 silly resolved     bugs: { url: 'https://github.com/victorquinn/Backbone.CrossDomain/issues' },
+97 silly resolved     licenses: [ [Object] ],
+97 silly resolved     main: 'Gruntfile.js',
+97 silly resolved     engines: { node: '>= 0.8.0' },
+97 silly resolved     scripts: { test: 'grunt test' },
+97 silly resolved     devDependencies: { 'grunt-contrib-qunit': '0.1.1rc6', grunt: '0.4.0rc7' },
+97 silly resolved     keywords: [ 'backbone', 'plugin', 'cors', 'ie' ],
+97 silly resolved     readme: '# Backbone.CrossDomain\n\n## Overview\n\nThis is an extension for Backbone.js with a Sync that adds support for IE 7-9 CORS requests using IE\'s XDomainRequest Object while maintaining compatibility with non-IE systems.\n\nThis is intended as a drop-in replacement for the default Backbone.sync so you should be able to just plop this in and Cross Domain Requests (using CORS) should just magically work on IE.\n\n## Installation\n\nYou can manually download/install this library or grab it with npm:\n\n```\nnpm install backbone-crossdomain\n```\n\n## Usage\n\nInclude Backbone.CrossDomain after including Backbone.js:\n\n```html\n<script type="text/javascript" src="backbone.js"></script>\n<script type="text/javascript" src="Backbone.CrossDomain.js"></script>\n```\n\nAnd that\'s it! Now anything that uses Backbone.sync() internally should work with a cross domain request from IE7/8/9 where they didn\'t previously. This means model.fetch(), model.save(), model.sync, collection.fetch(), etc.\n\n### Bower\nEasy install with Bower.\n\n```\nbower install backbone.crossdomain\n```\n\n### RequireJS\n\nThis library has AMD support for use with RequireJS. This is not necessary to use this library but helpful when building an app with AMD.\n\nInclude [RequireJS](http://requirejs.org):\n\n```html\n<script type="text/javascript" src="lib/require.js"></script>\n```\n\nRequireJS config (with Backbone and Underscore using a shim):\n```javascript\nrequire.config({\n    paths: {\n        jquery: "lib/jquery",\n        underscore: "lib/underscore",\n        backbone: "lib/backbone",\n        crossdomain: "lib/Backbone.CrossDomain"\n    },\n    shim: {\n        underscore: {\n            exports: \'_\'\n        },\n        backbone: {\n            deps: [\'underscore\', \'jquery\'],\n            exports: \'Backbone\'\n        }\n    }\n});\n```\n\nRequire crossdomain:\n```javascript\nrequire(["underscore", "backbone", "crossdomain"], function(_, Backbone) {\n    // Define your models and collections as normal\n});\n```\n\nUse Backbone as you would normally, this is a drop-in replacement and shouldn\'t require anything to change.\n\n\n## License\n\nLicensed under MIT license\n\nCopyright (c) 2013 Victor Quinn\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n"Software"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+97 silly resolved     readmeFilename: 'README.md',
+97 silly resolved     _id: 'backbone-crossdomain@0.4.0',
+97 silly resolved     dist: { shasum: 'fb170996e93aa9e86a6f9760befab971139a570f' },
+97 silly resolved     _from: 'backbone-crossdomain@',
+97 silly resolved     _resolved: 'https://registry.npmjs.org/backbone-crossdomain/-/backbone-crossdomain-0.4.0.tgz' } ]
+98 info install backbone-crossdomain@0.4.0 into /usr/local/lib
+99 info installOne backbone-crossdomain@0.4.0
+100 info /usr/local/lib/node_modules/backbone-crossdomain unbuild
+101 verbose tar unpack /home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz
+102 silly lockFile 6fe5c7c4-ode-modules-backbone-crossdomain tar:///usr/local/lib/node_modules/backbone-crossdomain
+103 verbose lock tar:///usr/local/lib/node_modules/backbone-crossdomain /home/macchli/.npm/6fe5c7c4-ode-modules-backbone-crossdomain.lock
+104 silly lockFile 0f792631-ne-crossdomain-0-4-0-package-tgz tar:///home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz
+105 verbose lock tar:///home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz /home/macchli/.npm/0f792631-ne-crossdomain-0-4-0-package-tgz.lock
+106 silly gunzTarPerm modes [ '755', '644' ]
+107 silly gunzTarPerm extractEntry package.json
+108 silly gunzTarPerm extractEntry .npmignore
+109 silly gunzTarPerm extractEntry README.md
+110 silly gunzTarPerm extractEntry Backbone.CrossDomain.js
+111 silly gunzTarPerm extractEntry Gruntfile.js
+112 silly gunzTarPerm extractEntry LICENSE-MIT
+113 silly gunzTarPerm extractEntry bower.json
+114 silly gunzTarPerm extractEntry test/Backbone.CrossDomain.js
+115 silly gunzTarPerm extractEntry test/index.html
+116 silly lockFile 6fe5c7c4-ode-modules-backbone-crossdomain tar:///usr/local/lib/node_modules/backbone-crossdomain
+117 silly lockFile 6fe5c7c4-ode-modules-backbone-crossdomain tar:///usr/local/lib/node_modules/backbone-crossdomain
+118 silly lockFile 0f792631-ne-crossdomain-0-4-0-package-tgz tar:///home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz
+119 silly lockFile 0f792631-ne-crossdomain-0-4-0-package-tgz tar:///home/macchli/.npm/backbone-crossdomain/0.4.0/package.tgz
+120 info preinstall backbone-crossdomain@0.4.0
+121 verbose readDependencies using package.json deps
+122 verbose readDependencies using package.json deps
+123 silly resolved []
+124 verbose about to build /usr/local/lib/node_modules/backbone-crossdomain
+125 info build /usr/local/lib/node_modules/backbone-crossdomain
+126 verbose linkStuff [ true,
+126 verbose linkStuff   '/usr/local/lib/node_modules',
+126 verbose linkStuff   true,
+126 verbose linkStuff   '/usr/local/lib/node_modules' ]
+127 info linkStuff backbone-crossdomain@0.4.0
+128 verbose linkBins backbone-crossdomain@0.4.0
+129 verbose linkMans backbone-crossdomain@0.4.0
+130 verbose rebuildBundles backbone-crossdomain@0.4.0
+131 info install backbone-crossdomain@0.4.0
+132 info postinstall backbone-crossdomain@0.4.0
+133 error peerinvalid The package generator-karma does not satisfy its siblings' peerDependencies requirements!
+133 error peerinvalid Peer generator-angular@0.8.0 wants generator-karma@>=0.6.0
+133 error peerinvalid Peer generator-angular-ui-router@0.5.3 wants generator-karma@~0.5.0
+134 error System Linux 3.13.0-24-generic
+135 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "backbone-crossdomain"
+136 error cwd /home/macchli/Workspace/Noida/instagramFeedAPI
+137 error node -v v0.10.25
+138 error npm -v 1.3.10
+139 error code EPEERINVALID
+140 verbose exit [ 1, true ]
