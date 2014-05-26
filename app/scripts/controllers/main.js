@@ -11,11 +11,12 @@ angular.module('instagramFeedApiApp')
 			$scope.accessToken = localStorage.getItem('token')
 		}
 
-		var config = {headers:  {
-            'Accept': 'application/json,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-            'Access-Control-Allow-Origin': true
-       	}
-       };
+		var config = {
+			headers:  {
+	            'Accept': 'application/json,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+	            'Access-Control-Allow-Origin': true
+       		}
+       	};
 
 		$scope.retrieveAccessToken();
 
